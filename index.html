@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix - Watch Latest Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">MovieFlix</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV Shows</a></li>
+                        <li><a href="#">My List</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Unlimited Movies, TV Shows, and More.</h1>
+                <p>Watch anywhere. Cancel anytime. Ready to watch? Browse our collection of the latest movies and TV shows.</p>
+                <a href="#" class="btn">Watch Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Trending Movies -->
+        <section>
+            <h2 class="section-title">Trending Now</h2>
+            <div class="movies-grid" id="trending-movies">
+                <!-- Movie cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- New Releases -->
+        <section>
+            <h2 class="section-title">New Releases</h2>
+            <div class="movies-grid" id="new-releases">
+                <!-- Movie cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV Shows</a></li>
+                        <li><a href="#">My List</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Media Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="current-year"></span> MovieFlix. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
